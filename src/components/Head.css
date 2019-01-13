@@ -1,0 +1,154 @@
+.head {
+  border: 1px solid green;
+  position: relative;
+  width: 348px;
+  height: 220px;
+  min-width: 10em;
+  min-height: 10em;
+  margin: 0 auto;
+  padding-top: 12px;
+}
+
+.hair {
+  position: absolute;
+  display: inline-block;
+  background-color: #ffe37a;
+  margin-top: 0px;
+  width: 248px;
+  height: 92px;
+  border: 0.05em solid #3e3e3e;
+  margin-left: -140px;
+  z-index: 2;
+  border-radius: 50% 44% 78% 60%;
+  transform: skew(-52deg);
+}
+
+.mullet {
+  position: absolute;
+  margin-top: 7px;
+  width: 80px;
+  height: 139px;
+  background-color: #ffe37a;
+  border-radius: 13% 86% 39% 128%;
+  border: 0.05em solid #3e3e3e;
+  transform: skew(9deg) rotate(14deg);
+  margin-left: 254px;
+  z-index: 1;
+}
+
+.face {
+  position: absolute;
+  margin-left: 20px;
+  background-color: #ff9c25;
+  width: 310px;
+  height: 205px;
+  border: 0.07em solid #3e3e3e;
+  border-radius: 50% 50% 50% 40%;
+}
+
+.eyes {
+  position: absolute;
+  width: 55%;
+  height: 8%;
+  margin-left: 16%;
+  margin-top: 35%;
+}
+
+.left-eye,
+.right-eye {
+  position: absolute;
+  width: 35%;
+  height: 100%;
+  background-color: #fff;
+  border-bottom: 0.7em solid #ffc476;
+  border-top: 0.05em solid #3e3e3e;
+  /*border: 0.15em solid #FFF;*/
+}
+
+.right-eye {
+  right: 7%;
+  border-radius: 5px 20px 5px;
+}
+
+.left-eye {
+  border-radius: 20px 5px 20px 5px;
+}
+
+.left-pupil,
+.right-pupil {
+  position: absolute;
+  width: 10%;
+  height: 20%;
+  background-color: #3e3e3e;
+  right: 44%;
+  bottom: 40%;
+  border-radius: 50%;
+}
+
+.mouth {
+  position: absolute;
+  width: 10%;
+  height: 4%;
+  border-right: 0.1em solid #3e3e3e;
+  border-top: 0.1em solid #3e3e3e;
+  border-bottom: 0em solid #fff;
+  left: 35%;
+  bottom: 20%;
+  border-radius: 0px 20px 0px 0px;
+}
+
+.head.neutral .left-eye,
+.head.neutral .right-eye {
+  animation: blink-eyes 2.5s infinite ease-in;
+  animation-delay: 2s;
+}
+
+@keyframes blink-eyes {
+  0% {
+    height: 10%;
+    margin-top: 10%;
+  }
+  5% {
+    height: 80%;
+    margin-top: 0%;
+  }
+  30% {
+    height: 100%;
+    margin-top: 0%;
+  }
+  100% {
+    height: 100%;
+    margin-top: 0%;
+  }
+}
+
+.head.speaking .mouth {
+  border-top: 0.2em solid #3e3e3e;
+  background-color: #3e3e3e;
+  animation: speak-mouth 1.5s infinite alternate;
+  border-radius: 100px 100px 0px 0px;
+  width: 10%;
+}
+
+@keyframes speak-mouth {
+  0% {
+    height: 4%;
+    margin-top: 10%;
+    padding-bottom: 2%;
+  }
+  25% {
+    height: 6%;
+  }
+  50% {
+    height: 4%;
+    margin-top: 40%;
+    left: 38%;
+  }
+  75% {
+    height: 5%;
+    margin-top: 60%;
+  }
+  100% {
+    height: 4%;
+  }
+}
