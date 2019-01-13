@@ -9,7 +9,8 @@ class SoundButton extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick(event) {
+  handleClick() {
+    this.props.startAnimation();
     this.refs.soundRef.play();
   }
 
@@ -19,7 +20,7 @@ class SoundButton extends Component {
         <button className="sound-button" onClick={this.handleClick}>
           {this.props.desc}
         </button>
-        <audio ref="soundRef">
+        <audio ref="soundRef" onEnded={this.props.endAnimation}>
           <source src={this.props.sound} type="audio/mp3" />
         </audio>
       </div>
