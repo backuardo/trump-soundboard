@@ -9,7 +9,7 @@
 ### Setup
 
     $ git clone https://github.com/beneisnr/trump-soundboard.git
-    $ cd identicon
+    $ cd trump-soundboard
     $ npm i
 
 #### Run demo
