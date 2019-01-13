@@ -49,20 +49,32 @@ export const sounds = [
     mp3: iLikeChina
   },
   {
-    desc: "@realDonaldTrump",
-    mp3: atRealDonaldTrump
+    desc: "We have losers",
+    mp3: weHaveLosers
+  },
+  {
+    desc: "Trying to kill us",
+    mp3: tryingToKillUs
+  },
+  {
+    desc: "Common sense",
+    mp3: itOnlyMakesCommonSense
   },
   {
     desc: "Believe me",
     mp3: believeMe
   },
   {
+    desc: "Really rich",
+    mp3: imReallyRich
+  },
+  {
     desc: "Cyber world",
     mp3: cyberWorld
   },
   {
-    desc: "Doesn't want NATO",
-    mp3: doesntWantNato
+    desc: "Believe it or not",
+    mp3: believeItOrNot
   },
   {
     desc: "Don't hurt him",
@@ -89,16 +101,8 @@ export const sounds = [
     mp3: whatsGoingOnHere
   },
   {
-    desc: "African American youth",
-    mp3: africanAmericanYouth
-  },
-  {
     desc: "Alcohol",
     mp3: alcohol
-  },
-  {
-    desc: "Believe it or not",
-    mp3: believeItOrNot
   },
   {
     desc: "Better than ever",
@@ -121,12 +125,24 @@ export const sounds = [
     mp3: doingTheRightThing
   },
   {
+    desc: "Doesn't want NATO",
+    mp3: doesntWantNato
+  },
+  {
     desc: "Drugs",
     mp3: drugs
   },
   {
+    desc: "RealDonaldTrump",
+    mp3: atRealDonaldTrump
+  },
+  {
     desc: "Fifteen million dollars",
     mp3: fifteenMillionDollars
+  },
+  {
+    desc: "African American youth",
+    mp3: africanAmericanYouth
   },
   {
     desc: "From the Middle East",
@@ -165,20 +181,12 @@ export const sounds = [
     mp3: imGoingToDoThat
   },
   {
-    desc: "Really rich",
-    mp3: imReallyRich
-  },
-  {
     desc: "Real life",
     mp3: imTalkingInRealLife
   },
   {
     desc: "Islamic terrorism",
     mp3: islamicTerrorism
-  },
-  {
-    desc: "Common sense",
-    mp3: itOnlyMakesCommonSense
   },
   {
     desc: "Japan",
@@ -211,13 +219,5 @@ export const sounds = [
   {
     desc: "Bringing drugs",
     mp3: theyreBringingDrugs
-  },
-  {
-    desc: "Trying to kill us",
-    mp3: tryingToKillUs
-  },
-  {
-    desc: "We have losers",
-    mp3: weHaveLosers
   }
 ];
