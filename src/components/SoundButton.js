@@ -16,7 +16,9 @@ class SoundButton extends Component {
   render() {
     return (
       <div className="container">
-        <button onClick={this.handleClick}>{this.props.desc}</button>
+        <button className="sound-button" onClick={this.handleClick}>
+          {this.props.desc}
+        </button>
         <audio ref="soundRef">
           <source src={this.props.sound} type="audio/mp3" />
         </audio>
