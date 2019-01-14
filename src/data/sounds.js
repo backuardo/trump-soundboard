@@ -25,7 +25,6 @@ import iEnjoyThat from "./sounds/i_actually_enjoy_that.mp3";
 import iHadNoIdea from "./sounds/i_had_no_idea.mp3";
 import iHaveTheBestCourses from "./sounds/i_have_the_best_courses_in_the_world.mp3";
 import iThinkImANicePerson from "./sounds/i_think_i_am_a_nice_person.mp3";
-import iWasExhilarated from "./sounds/i_was_exhilarated.mp3";
 import imAboutTheMilitary from "./sounds/im_about_the_military.mp3";
 import imGoingToDoThat from "./sounds/im_going_to_do_that.mp3";
 import imReallyRich from "./sounds/im_really_rich.mp3";
@@ -167,10 +166,6 @@ export const sounds = [
   {
     desc: "Nice person",
     mp3: iThinkImANicePerson
-  },
-  {
-    desc: "Exhilarated",
-    mp3: iWasExhilarated
   },
   {
     desc: "About the military",
