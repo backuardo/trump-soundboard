@@ -7,9 +7,9 @@
   background: #f5f5f5;
   overflow-y: scroll;
   /*background-color: #ffe37a;*/
-  background-image: linear-gradient(to bottom right, #ffe37a, #ffffff);
+  background-image: linear-gradient(to bottom right, #ffeeaf, #ffffff);
   height: 360px;
-  border-radius: 3px;
+  border-radius: 5px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -27,8 +27,8 @@
 }
 
 .scrollbar::-webkit-scrollbar-thumb {
-  border-radius: 3px;
-  border: 2px solid #cacee3;
+  border-radius: 5px;
+  border: 1px solid #cacee3;
   background-color: #cacee3;
 }
 
@@ -36,5 +36,5 @@
   margin: auto;
   width: 372px;
   box-shadow: 1px 1px 15px #ffffff;
-  border-radius: 3px;
+  border-radius: 5px;
 }
